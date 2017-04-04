@@ -1,0 +1,124 @@
+<html>
+<html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src="resources.jpg" alt="arch" style="width:1260px;height:500px;">
+
+
+</body>
+</html>
+
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: CornflowerBlue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+
+<script type="text/javascript">
+    function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+</script>
+</head>
+<body>
+
+<ul>
+  <li><a href="resources by need.html">Resources</a></li>
+  <li><a href="Reception and Placement.html">Reception and Placement</a></li>
+  <li><a href="Housing.html">Housing</a></li>
+  <li><a href="Legal.html">Legal</a></li>
+   <li><a href="Food.html">Food</a></li>
+  <li><a href="Clothes.html">Clothes</a></li>
+   <li><a href="Transportation.html">Transportation</a></li>
+  <li><a href="physical health.html">Physical Health</a></li>
+   <li><a href="mental health.html">Mental Health</a></li>
+</ul>
+
+</body>
+<head>
+
+<a href="MNrefugeeservices.html"><img src="logo.jpg" alt="Logo" img align="left"> </a>
+
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+<title>Resources by need</title>
+<style>
+body {
+  text-align: center;
+  color: grey;
+  font-family:'Arvo', serif;
+}
+p{
+  font-size: 50px;
+}
+input{
+  border:0;
+  padding:10px;
+  font-size: 18px;
+}
+input{type="submit"]{
+  background: red;
+  color: white;
+}
+</style>
+</head>
+<br>
+<br>
+<br>
+<p>What do you need?</p>
+<form name="I'm looking for...">
+<select name="Resource" id="Resource" style="width: 80% !important;" onChange= window.open(I'm looking for....value,'newtab'">">
+<option value="Reception and Placement.html" selected>Reception and Placement</option>
+<option value="Housing.html">Housing</option>
+<option value="Legal.html">Legal</option>
+<option value="Food.html">Food</option>
+<option value="Clothes.html">Clothes</option>
+<option value="Transportation.html">Transportation</option>
+<option value="physical health.html">Physical Health</option>
+<option value="mental health.html">Mental Health</option>
+</select>
+</form>
+
+<select name="I'm looking for..." id="I'm looking for..." accesskey="target">
+    <option value='none' selected>Choose a resource</option>
+    <option value="Reception and Placement.html" selected>Reception and Placement</option>
+    <option value="Housing.html">Housing</option>
+    <option value="Legal.html">Legal</option>
+    <option value="Food.html">Food</option>
+    <option value="Clothes.html">Clothes</option>
+    <option value="Transportation.html">Transportation</option>
+    <option value="physical health.html">Physical Health</option>
+    <option value="mental health.html">Mental Health</option>
+<select>
+<input type=button value="Go" onclick="goToNewPage()" />
+<br>
+<br>
+<br>
+<br>
+</html>
